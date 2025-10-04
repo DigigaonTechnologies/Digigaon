@@ -9,7 +9,7 @@ import React from 'react'
 
 const Fotter = () => {
   return (
-    <div className="relative text-white">
+    <div className="relative w-full text-white">
       {/* Floating Logo */}
       <div className="absolute z-10 -top-5 left-1/2 -translate-x-1/2 w-[130px] h-[60px] rounded bg-white flex justify-center items-center">
         <img className=" object-cover"  src={image} alt="logo" />

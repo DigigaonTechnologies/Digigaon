@@ -18,10 +18,10 @@ const Sidebar = () => {
     <div>
       {/* Hamburger Button */}
       <button
-        className="p-2 m-2 z-10 right-0 absolute top-0 text-[#1F2732]  rounded-md focus:outline-none md:hidden"
+        className="p-2 mt-8 mr-2 z-10  right-0 absolute top-0 text-[#1F2732] rounded-md focus:outline-none md:hidden"
         onClick={() => setIsOpen(true)}
       >
-        <Bars3Icon className="w-6 h-6" />
+        <Bars3Icon className="w-12 h-12" />
       </button>
 
       {/* Overlay */}

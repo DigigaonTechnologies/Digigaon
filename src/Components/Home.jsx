@@ -18,12 +18,12 @@ const Home = () => {
    
 
   return (
-    <div className=" relative w-full min-h-[100vh]  bg-white text-center">
+    <div className=" relative min-w-full min-h-[100vh]  bg-white text-center">
       {/* Hero Section */}
       <section
       >
          <div
-         className="relative w-full min-h-[140vh]  bg-cover bg-center py-20 flex flex-col items-center after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-white after:opacity-30"
+         className="relative w-full min-h-[100vh] md:h-[140vh]  bg-cover bg-center py-20 flex flex-col items-center after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-white after:opacity-30"
         style={{
           backgroundImage: `url(${imageUrl})`,
           backgroundSize: "cover", // cover ya contain
@@ -91,7 +91,7 @@ const Home = () => {
         >
           Services we offer to <br /> transform your business
         </h3>
-        <div className="h-25 relative left-[50%] border-l-2 border-dashed border-black mb-5 "></div>
+        <div className="h-25 w-0 relative left-[50%] border-l-2 border-dashed border-black mb-5 "></div>
 
         {/* Services Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl mx-auto">
