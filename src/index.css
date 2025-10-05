@@ -3,6 +3,7 @@
 * {
   
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -22,4 +23,11 @@
 
 .clip-slant {
   clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+  scrollbar-width: none; /* Firefox */
 }

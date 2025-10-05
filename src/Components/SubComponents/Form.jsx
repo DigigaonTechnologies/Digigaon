@@ -2,7 +2,7 @@ import React from 'react'
 
 const Form = () => {
   return (
-    <div className="w-full min-h-screen md:min-h-[85vh] bg-black flex justify-center items-center p-4">
+    <div className="w-full h-full bg-black flex justify-center items-center p-4">
       <form className="w-full max-w-lg bg-black p-4 rounded space-y-4">
         {/* Full Name & Phone */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

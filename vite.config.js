@@ -3,6 +3,7 @@ import tailwindcss from '@tailwindcss/vite'; // Import the plugin
 
 export default defineConfig({
   plugins: [
-    tailwindcss(), // Add the plugin to your plugins array
+    tailwindcss(), 
+    // Add the plugin to your plugins array
   ],
 });

@@ -3,18 +3,18 @@
 "service":[
    {
     "id":1,
-    "imageUr":"./public/s1.png",
+    "imageUr":"/s1.png",
     "title":"Informaton Technology ",
     "description":"We provide reliable IT services, specializing in software development and cloud solutions. Our expertise ensures secure, scalable, and innovative systems that empower businesses to achieve digital transformation and long-term growth."
    },
    {
     "id":2,
-    "imageUr":"./public/s2.png",
+    "imageUr":"/s2.png",
     "title":"Government Tenders",
     "description":" We provide end-to-end support for Government tenders through GeM Portal and MP Tenders. Our services include tender identification, bid preparation, documentation, and compliance, helping businesses secure public procurement opportunities seamlessly."
    },
    {"id":3,
-    "imageUr":"./public/s3.png",
+    "imageUr":"/s3.png",
     "title":"Housekeeping",
     "description":"Our professional housekeeping services ensure clean, hygienic, and well-maintained spaces. We provide tailored solutions for homes, offices, and industries, focusing on sanitation, waste management, and overall upkeep to create healthier environments."
    }
@@ -26,7 +26,7 @@
     "title": "Strategy",
     "description":
       "We begin our journey by analyzing your business objectives and end-user requirements to create a draft of Low-Fidelity Wireframes. .",
-    "image": "./public/e1.png",
+    "image": "/e1.png",
     "accent": "text-orange-500",
     "boxColor": "bg-gray-800"
   },
@@ -35,7 +35,7 @@
     "title": "Design",
     "description":
       "We design and draft the appearance, feel, and functionality of your product.",
-    "image": "./public/e2.png", 
+    "image": "/e2.png", 
     "accent": "text-pink-600",
     "boxColor": "bg-gray-800"
   },
@@ -44,7 +44,7 @@
     "title": "Develop",
     "description":
       "We use Agile methodology to collaborate and iterate on the product design and development until we achieve flawless UX/UI functionality and experience.",
-    "image": "./public/e3.png", 
+    "image": "/e3.png", 
     "accent": "text-blue-500",
     "boxColor": "bg-gray-800"
   },
@@ -53,7 +53,7 @@
     "title": "Support",
     "description":
       "We provide maintenance and support if required. We monitor the performance of your website/application, fix bugs, and develop new functionalities.",
-    "image": "./public/e1.png", 
+    "image": "/e1.png", 
     "accent": "text-green-500",
     "boxColor": "bg-gray-800"
   }

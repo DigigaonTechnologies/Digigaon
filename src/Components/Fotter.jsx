@@ -19,7 +19,7 @@ const Fotter = () => {
       <div className="relative w-full bg-[#1c2430] clip-slant flex flex-col items-center justify-center px-4 sm:px-8 lg:px-16 pt-16 pb-6">
         
         {/* Company Name */}
-        <h2 className="font-semibold text-lg sm:text-xl lg:text-2xl mt-6 hover:scale-10 transition-all cursor-pointer text-center "  >
+        <h2 className="font-semibold text-lg sm:text-xl lg:text-2xl mt-6 hover:scale-110 transition-all cursor-pointer text-center "  >
           DIGIGAON TECHNOLOGIES LLP
         </h2>
 

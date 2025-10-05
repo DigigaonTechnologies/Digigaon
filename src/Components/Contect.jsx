@@ -8,7 +8,7 @@ const Contect = () => {
     <>
       <section className="relative  flex-col w-[100vw] min-h-[100vh] flex justify-center items-center py-16 px-6">
         <h3
-          className=" relative  text-[#232121] text-2xl md:text-[4vw] tracking-tight leading-[1em] font-bold mb-[5vh] md:mt-[10vh] cursor-pointer"
+          className=" relative  text-[#232121] text-2xl md:text-[4vw] tracking-tight leading-[1em] font-bold mb-[5vh] mt-[10vh] md:mt-[10vh] cursor-pointer"
           style={{
             lineHeight: "1",
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
@@ -20,7 +20,7 @@ const Contect = () => {
           We are here to help and answer any question you might here. We look
           forward to hearing from you.
         </p>
-        <div className="w-[85%] mt-10 grid grid-cols-1 lg:grid-cols-2 border-1 border-black">
+        <div className="w-[85%] mt-10 grid grid-cols-1 lg:grid-cols-2 border-1 shadow-2xl border-black">
           <div className=" w-full flex flex-col items-center justify-center p-5 bg-[#1C2430] ">
             <ContectCard
              className="object-cover"
@@ -62,9 +62,9 @@ const Contect = () => {
          <div className="h-10 md:h-25 relative top-5 border-l-2 border-dashed border-black"></div>
 
          {/* form */}
-            <div className="w-[98%]overflow-hidden mt-10 grid grid-cols-1 md:grid-cols-2 shadow-xl  justify-around items-center rounded-xl">
-                <div className=" w-full overflow-hidden   h-full"><img className=" h-[85vh] " src="/Rectangle 22.png" alt="" /></div>
-                <Form/>
+            <div className="w-[98%] overflow-hidden mt-10 grid grid-cols-1 md:grid-cols-2 shadow-2xl  justify-around items-center rounded-xl">
+                <div className=" w-full overflow-hidden   h-full"><img className=" md:h-[85vh]  h:[50vh] " src="/Rectangle 22.png" alt="" /></div>
+                <div className="md:h-[85vh] h:[50vh]"><Form/></div>
             </div>
          <div className="h-10 md:h-25 relative top-5 border-l-2 border-dashed border-black"></div>
       </section>

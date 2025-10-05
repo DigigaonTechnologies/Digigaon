@@ -73,17 +73,17 @@ const Home = () => {
           </h2>
         </div>
         {/* Center circle (0) */}
-        <div className="absolute bottom-[-25px] flex flex-col items-center">
+        <div className="absolute md:top-[130vh] top-[94vh] z-10  gap-10 flex flex-col items-center left-1/2 transform -translate-x-1/2">
           <div className="w-12 h-1  shadow-lg flex items-center justify-center text-lg font-bold">
             <img src={imageUr2} alt="" />
           </div>
-          <div className="h-25 relative top-5 border-l-2 border-dashed border-black"></div>
+          <div className=" h-15 md:h-20 relative top-5 border-l-2 border-dashed border-black"></div>
         </div>
       </section>
 
       <section className="bg-white relative py-16 px-4 md:px-8 text-center flex-col items-center justify-center">
         <h3
-          className=" relative  text-xl text-[#232121] md:text-[5vw]  tracking-tight  font-bold mb-5"
+          className=" relative  text-xl text-[#232121] md:text-[5vw]  mt-4 tracking-tight  font-bold mb-5"
           style={{
             lineHeight: "1",
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
@@ -91,7 +91,7 @@ const Home = () => {
         >
           Services we offer to <br /> transform your business
         </h3>
-        <div className="h-25 w-0 relative left-[50%] border-l-2 border-dashed border-black mb-5 "></div>
+        <div className="md:h-20 h-15 w-0 relative left-[50%] border-l-2 border-dashed border-black mb-5 "></div>
 
         {/* Services Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl mx-auto">

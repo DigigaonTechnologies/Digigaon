@@ -8,19 +8,20 @@ import Fotter from "./Components/Fotter";
 import UnderC from './Components/SubComponents/UnderC';
 import Contect from './Components/Contect';
 import Sidebar from './Components/SubComponents/Sidebar';
+import Services from './Components/Services';
 
 
 function App() {
 
   return (
     < >
-     <UnderC/>
+     {/* <UnderC/> */}
       <Nav/>
       <Routes>
         <Route path='/' element={<Home/>} ></Route>
         {/* <Route path='/about' element={<div>About</div>} ></Route> */}
         <Route path='/contect' element={<Contect/>} ></Route>
-        {/* <Route path='/services' element={<div>Services</div>} ></Route> */}
+        <Route path='/services' element={<Services/>} ></Route>
       </Routes>
       <Sidebar/>
       <Fotter ></Fotter>

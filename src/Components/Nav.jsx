@@ -16,7 +16,7 @@ const Nav = () => {
             Home
           </NavLink>
           <NavLink
-            to=""
+            to="/services"
             className={({ isActive }) => (isActive ? "active-link" : "")}
           >
             Services
