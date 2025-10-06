@@ -19,7 +19,7 @@ const Fotter = () => {
       <div className="relative w-full bg-[#1c2430] clip-slant flex flex-col items-center justify-center px-4 sm:px-8 lg:px-16 pt-16 pb-6">
         
         {/* Company Name */}
-        <h2 className="font-semibold text-lg sm:text-xl lg:text-2xl mt-6 hover:scale-110 transition-all cursor-pointer text-center "  >
+        <h2 className="font-semibold hidden md:block text-lg sm:text-xl lg:text-2xl mt-6 hover:scale-110 transition-all cursor-pointer text-center "  >
           DIGIGAON TECHNOLOGIES LLP
         </h2>
 
@@ -39,10 +39,10 @@ const Fotter = () => {
           {/* Contact / Number */}
           <div className="w-full sm:w-[50%] md:w-[40%] lg:w-[15vw] text-center lg:text-left">
             <h1 className="font-bold p-1 border-[#FF6900] border-b-2 w-max mx-auto lg:mx-0 text-base sm:text-lg lg:text-[1.5vw]">
-              CONTACT
+              CONTECT
             </h1>
-            <h1 className="mt-3 flex gap-2"><span className="bg-[#FF6900] p-1"><FaPhoneAlt/></span> 9131957450</h1>
-            <h1 className="mt-1.5 flex gap-2"><span className="bg-[#FF6900] p-1"><SiGmail/></span> digigaontechnologies@gmail.com</h1>
+            <h1 className="mt-3 flex gap-2"><span className="bg-[#FF6900] p-1"><FaPhoneAlt/></span> +91 9131957450</h1>
+            <h1 className="mt-1.5 flex gap-2"><span className="bg-[#FF6900] p-1"><SiGmail/></span> <a href="mailto:digigaontechnologies@gmail.com">digigaontechnologies@gmail.com</a></h1>
             <h1 className="mt-1.5 w-max flex gap-2"><span className="bg-[#FF6900] p-1"><FaLocationDot/></span> Sausar , Madhyapradesh 480106, IN</h1>
             {/* digigaontechnologies@gmail.com */}
           </div>

@@ -27,7 +27,7 @@ const Contect = () => {
               key={1}
               id={1}
               text1="Call us"
-              text2="+918989898"
+              text2="+91 9131957450"
               paths="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a1.5 1.5 0 001.5-1.5V18a1.5 1.5 0 00-1.5-1.5h-2.25A11.25 11.25 0 016.75 6.75V4.5A1.5 1.5 0 005.25 3h-2.25A1.5 1.5 0 001.5 4.5v2.25z"
             />
           </div>
@@ -57,7 +57,7 @@ const Contect = () => {
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
           }}
         >
-          Get in Toch
+          Get in Touch
         </h3>
          <div className="h-10 md:h-25 relative top-5 border-l-2 border-dashed border-black"></div>
 

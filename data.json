@@ -57,5 +57,93 @@
     "accent": "text-green-500",
     "boxColor": "bg-gray-800"
   }
+],
+"OurClients":[
+  {
+    "id": 1,
+    "name": "Tajne Construction",
+    "industry": "Construction & Infrastructure",
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "logo": "/s1.png"
+  },
+  {
+    "id": 2,
+    "name": "Elite Housekeeping Services",
+    "industry": "Facility Management",
+    "description":
+      "Providing professional housekeeping and maintenance solutions for corporate, residential, and industrial clients.",
+    "logo": "/s1.png"
+  },
+  {
+    "id": 3,
+    "name": "Bobde Electricals",
+    "industry": "Electrical & Energy Solutions",
+    "description":
+      "Experts in electrical installation, maintenance, and industrial automation, delivering reliable and safe power solutions.",
+    "logo": "/s1.png"
+  },
+  {
+    "id": 4,
+    "name": "Farmico Pvt. Ltd.",
+    "industry": "Agriculture & AgroTech",
+    "description":
+      "Empowering farmers through technology-driven agriculture solutions and sustainable farming practices.",
+    "logo": "/s1.png"
+  }
+],
+"services" : [
+  {
+    "id": 1,
+    "title": "UI/UX DESIGN",
+    "subtitle": "WE DESIGN",
+    "description":
+      "We provide reliable IT services, specializing in software development and cloud solutions. Our expertise ensures secure, scalable, and innovative systems that empower businesses to achieve digital transformation and long-term growth.",
+    "image": "/s1.png"
+  },
+  {
+    "id": 2,
+    "title": "WEB DEVELOPMENT",
+    "subtitle": "WE DEVELOP",
+    "description":
+      "We are Creative Nerds. We are Technocrats. But We are Passionate about creating a Successful Brand for You.",
+    "image": "/s1.png"
+  },
+   {
+    "id": 3,
+    "title": "WEB DEVELOPMENT",
+    "subtitle": "WE DEVELOP",
+    "description":
+      "We are Creative Nerds. We are Technocrats. But We are Passionate about creating a Successful Brand for You.",
+    "image": "/s1.png"
+  }
+  
+],
+ "StrategicCard":[
+  {
+    "id": 1,
+    "image": "/a1.png",
+    "title": "Ownership",
+    "accent": "orange-500",
+    "description":
+      "We take full responsibility for our actions. We apologize for our mistakes and work with more sincerity and dedication to delight our customers."
+  },
+  {
+    "id": 2,
+    "image": "/a2.png",
+    "title": "Think Smarter and Bigger",
+    "accent": "pink-600",
+    "description":
+      "We constantly strive for improvement and growth. We embrace change, adopt it, and find solutions to improve ourselves."
+  },
+  {
+    "id": 3,
+    "image": "/a3.png",
+    "title": "Work Ethic",
+    "accent": "green-500",
+    "description":
+      "We are proactive, organized, result-driven, and prompt because we expect high performance from ourselves. Consequently, we regularly invest in training to create a highly skilled and efficient talent pool."
+  }
 ]
+
 }

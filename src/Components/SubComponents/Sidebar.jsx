@@ -2,23 +2,24 @@
 import React, { useState } from "react";
 import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
+import logo from "../../assets/logo.png";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
     { name: "Home", path: "/" },
-    { name: "Profile", path: "/profile" },
-    { name: "Settings", path: "/settings" },
-    { name: "About", path: "/about" },
-    { name: "Logout", path: "/logout" },
+    { name: "Services", path: "/services" },
+    { name: "AboutUs", path: "/aboutus" },
+    // { name: "About", path: "/about" },
+    { name: "ContectUs", path: "/contect" },
   ];
 
   return (
     <div>
       {/* Hamburger Button */}
       <button
-        className="p-2 mt-8 mr-2 z-10  right-0 absolute top-0 text-[#1F2732] rounded-md focus:outline-none md:hidden"
+        className="p-2 mt-8 mr-2 z-10  right-0 fixed top-0 text-[#1F2732] rounded-md focus:outline-none md:hidden"
         onClick={() => setIsOpen(true)}
       >
         <Bars3Icon className="w-12 h-12" />
@@ -39,7 +40,7 @@ const Sidebar = () => {
         }`}
       >
         <div className="flex items-center bg-[#1F2732] justify-between p-4 border-b">
-          <h2 className="text-xl font-bold">Menu</h2>
+          <img className="w-[60%]" src={logo} alt="" />
           <button
             className="p-2 rounded-md hover:bg-gray-200"
             onClick={() => setIsOpen(false)}
