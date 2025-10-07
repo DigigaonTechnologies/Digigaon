@@ -10,7 +10,7 @@ const PlanAnDev = ({id,title, description,accent, image}) => {
         isEven ? "flex-row-reverse" : "flex-row"
       } ${accent} border shadow-[0_8px_12px_rgba(0,0,0,0.5)] my-10`}>
       {/* Image */}
-      <div className="w-[10vw] h-[10vw] rounded-full overflow-hidden shadow-lg border-2   flex-shrink-0">
+      <div className="w-[10vw] h-[10vw] hover:scale-120 transition-transform duration-250 ease-in-out rounded-full overflow-hidden shadow-lg border-2   flex-shrink-0">
         <img
           src={image}
           alt={title}

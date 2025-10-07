@@ -18,7 +18,7 @@ const Home = () => {
    
 
   return (
-    <div className=" relative min-w-full min-h-[100vh]  bg-white text-center">
+    <div className=" relative min-w-full min-h-[100vh] scroll-smooth bg-white text-center">
       {/* Hero Section */}
       <section
       >
@@ -126,14 +126,14 @@ const Home = () => {
           <img src={line1} className=" relative h-[16vw]" alt="" />
         </div>
         {data1.steps.map((step) => (
-          <div
+          <div key={step.id}
             className={`w-full relative  bg-[#1F2732]   flex  items-center ${
               step.id % 2 === 0 ? "flex-row-reverse" : "flex-row"
             } `}
           >
             <CountL
               className="w-[40%] flex-shrink-0"
-              key={step.id}
+              key={step.id+2}
               id={step.id}
               title={step.title}
               accent={step.accent}

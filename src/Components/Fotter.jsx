@@ -11,7 +11,7 @@ const Fotter = () => {
   return (
     <div className="relative w-full text-white">
       {/* Floating Logo */}
-      <div className="absolute z-10 -top-5 left-1/2 -translate-x-1/2 w-[130px] h-[60px] rounded bg-white flex justify-center items-center">
+      <div className="absolute z-10 hover:scale-120 transition-all -top-5 left-1/2 -translate-x-1/2 w-[130px] h-[60px] rounded bg-white flex justify-center items-center">
         <img className=" object-cover"  src={image} alt="logo" />
       </div>
 
@@ -41,9 +41,9 @@ const Fotter = () => {
             <h1 className="font-bold p-1 border-[#FF6900] border-b-2 w-max mx-auto lg:mx-0 text-base sm:text-lg lg:text-[1.5vw]">
               CONTECT
             </h1>
-            <h1 className="mt-3 flex gap-2"><span className="bg-[#FF6900] p-1"><FaPhoneAlt/></span> +91 9131957450</h1>
-            <h1 className="mt-1.5 flex gap-2"><span className="bg-[#FF6900] p-1"><SiGmail/></span> <a href="mailto:digigaontechnologies@gmail.com">digigaontechnologies@gmail.com</a></h1>
-            <h1 className="mt-1.5 w-max flex gap-2"><span className="bg-[#FF6900] p-1"><FaLocationDot/></span> Sausar , Madhyapradesh 480106, IN</h1>
+            <h1 className="mt-3 flex gap-2 "><span className="bg-[#FF6900] p-1"><FaPhoneAlt/></span><span className="hover:scale-110 transition-all hover:text-orange-400">+91 9131957450</span> </h1>
+            <h1 className="mt-1.5 flex gap-2"><span className="bg-[#FF6900] p-1"><SiGmail/></span> <a className="hover:scale-110 transition-all hover:text-orange-400" href="mailto:digigaontechnologies@gmail.com">digigaontechnologies@gmail.com</a></h1>
+            <h1 className="mt-1.5 w-max flex gap-2"><span className="bg-[#FF6900] p-1"><FaLocationDot/></span> <span className="hover:scale-110 transition-all hover:text-orange-400">Sausar , Madhyapradesh 480106, IN</span></h1>
             {/* digigaontechnologies@gmail.com */}
           </div>
 

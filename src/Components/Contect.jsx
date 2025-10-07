@@ -6,7 +6,7 @@ import ScrollToTop from "./SubComponents/ScrollToTop";
 const Contect = () => {
   return (
     <>
-      <section className="relative  flex-col w-[100vw] min-h-[100vh] flex justify-center items-center py-16 px-6">
+      <section className="relative  flex-col w-[100vw] min-h-[100vh] flex justify-center items-center py-16 px-6 scroll-smooth">
         <h3
           className=" relative  text-[#232121] text-2xl md:text-[4vw] tracking-tight leading-[1em] font-bold mb-[5vh] mt-[10vh] md:mt-[10vh] cursor-pointer"
           style={{
@@ -21,7 +21,7 @@ const Contect = () => {
           forward to hearing from you.
         </p>
         <div className="w-[85%] mt-10 grid grid-cols-1 lg:grid-cols-2 border-1 shadow-2xl border-black">
-          <div className=" w-full flex flex-col items-center justify-center p-5 bg-[#1C2430] ">
+          <div className=" w-full flex flex-col items-center justify-center overflow-hidden p-5 bg-[#1C2430] ">
             <ContectCard
              className="object-cover"
               key={1}
@@ -37,9 +37,9 @@ const Contect = () => {
           </div>
 
           <div className="bg-white flex items-center justify-center rounded shadow">
-            <img  className=" object-cover w-full h-full " src="/c2.jpeg" alt="Image 2" />
+            <img  className=" object-cover w-full h-full " src="/c2.png" alt="Image 2" />
           </div>
-          <div className=" w-full flex flex-col items-center justify-center p-5 bg-[#1C2430] ">
+          <div className=" w-full flex flex-col items-center overflow-hidden justify-center p-5 bg-[#1C2430] ">
             <ContectCard
               key={2}
               id={2}

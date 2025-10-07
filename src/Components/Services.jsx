@@ -7,7 +7,7 @@ import data from '../../data.json'
 const Services = () => {
   return (
     <>
-    <section className="w-full bg-white flex flex-col items-center py-16 px-5 md:px-16 overflow-hidden md:mb-[10vh]">
+    <section className="w-full bg-white flex  flex-col items-center py-16 px-5 md:px-16 overflow-hidden md:mb-[10vh] scroll-smooth">
       {/* ===== Section Header ===== */}
       <div className="text-center mb-10">
         <h3
