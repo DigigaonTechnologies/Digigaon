@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react'
+import { useLocation } from "react-router-dom";
 
 
 const ScrollToTop = () => {
     const [isVisible, setIsVisible] = useState(false);
     const [scrollProgress, setScrollProgress] = useState(0);
+
 
 
    useEffect(() => {

@@ -50,7 +50,7 @@ const PlanAnDev = ({id,title, description,accent, image}) => {
         style={{ x: imgXSpring, opacity: imgOpacitySpring, scale: imgScaleSpring }}
         className="w-[10vw] h-[10vw] rounded-full overflow-hidden shadow-lg border-2 flex-shrink-0"
       >
-        <img src={image} alt={title} className="w-full h-full object-cover" />
+        <img src={image} alt={title} className="w-full hover:scale-110 transition-all h-full object-cover" />
       </motion.div>
 
       {/* Text sliding in with spring */}

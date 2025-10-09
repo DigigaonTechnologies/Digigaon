@@ -4,22 +4,29 @@ import StrategCard from "./SubComponents/StrategCard";
 import data from "../../data.json";
 import Button from "./SubComponents/Button";
 import ScrollToTop from "./SubComponents/ScrollToTop";
+import AnimatedText from "./SubComponents/AnimatedText";
+import AnimatedText2 from "./SubComponents/AnimatedText2";
+import AnimatedText3 from "./SubComponents/AnimatedText3";
 
 const About = () => {
   return (
     <>
       <section className="w-full flex flex-col scroll-smooth items-center justify-center py-12 px-4 md:px-16 bg-white text-center">
         {/* ABOUT US HEADER */}
+        <AnimatedText>
         <h2
           className="text-3xl text-black md:mt-[10vh] md:text-4xl font-extrabold mb-2 tracking-tight"
           style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
         >
           ABOUT US
         </h2>
+        </AnimatedText>
+        <AnimatedText3>
         <p className="text-sm md:text-base text-gray-600 mb-6">
           CipherEleven– Committed to Creating Successful <br /> Entrepreneurs
           and Brands!!!
         </p>
+        </AnimatedText3>
 
         {/* Divider Line */}
         <div className="h-10 md:h-15 md:mb-5 relative  border-l-2 border-dashed border-black"></div>
@@ -52,12 +59,14 @@ const About = () => {
 
         {/* WHY WE ARE HERE SECTION */}
         <div className="max-w-4xl text-center">
+          <AnimatedText2>
           <h3
             className="text-2xl text-black md:text-3xl font-bold mb-4"
             style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
           >
             Why are we here ?
           </h3>
+          </AnimatedText2>
           <p className="text-gray-700 text-sm md:text-base leading-5.5 mb-4">
             Launched in 2018 by a seasoned and close-knit team of technocrats,
             marketing gurus, and sales professionals, CipherEleven has assisted
@@ -140,12 +149,14 @@ const About = () => {
           </div>
         </div>
         <div className="w-full flex flex-col items-center justify-center py-12 px-4 md:px-16 bg-white text-center">
+          <AnimatedText2>
           <h2
             className="text-2xl text-black md:text-3xl font-bold mb-4"
             style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
           >
             Life At Digigaon
           </h2>
+          </AnimatedText2>
           <p className="text-sm md:text-base text-gray-600 mb-6">
             We believe in thinking outside the box. The Team comes up with a
             brand-new vision and creative solution to every new study of the

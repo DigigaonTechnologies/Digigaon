@@ -11,10 +11,10 @@ const Scard = ({imageUr,title,description,index }) => {
       x: 0,
       opacity: 1,
       transition: { 
-        type: "spring", 
+        type: "lenear", 
         stiffness: 320, 
         damping: 15, 
-        delay: index* 0.3 // stagger by index
+        delay: index* 0.2 // stagger by index
       },
       
     },
@@ -27,7 +27,7 @@ const Scard = ({imageUr,title,description,index }) => {
     <motion.div ref={ref} variants={cardVariants}
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
-      className="flex hover:scale-120   hover:shadow-2xl flex-col items-center text-center">
+      className="flex hover:scale-110    hover:shadow-2xl flex-col items-center text-center">
            <div className='w-24 h-24 rounded-full flex items-center justify-center border-4 border-gray-300 shadow-md mb-4'>
              <div className="w-20 h-20 rounded-full flex items-center justify-center bg-gray-300 overflow-hidden ">
               <img

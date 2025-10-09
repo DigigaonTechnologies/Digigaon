@@ -2,11 +2,15 @@ import React from "react";
 import ContectCard from "./SubComponents/ContectCard";
 import Form from "./SubComponents/Form";
 import ScrollToTop from "./SubComponents/ScrollToTop";
+import AnimatedText from "./SubComponents/AnimatedText";
+import AnimatedText2 from "./SubComponents/AnimatedText2";
+import AnimatedText3 from "./SubComponents/AnimatedText3";
 
 const Contect = () => {
   return (
     <>
       <section className="relative  flex-col w-[100vw] min-h-[100vh] flex justify-center items-center py-16 px-6 scroll-smooth">
+        <AnimatedText>
         <h3
           className=" relative  text-[#232121] text-2xl md:text-[4vw] tracking-tight leading-[1em] font-bold mb-[5vh] mt-[10vh] md:mt-[10vh] cursor-pointer"
           style={{
@@ -16,10 +20,13 @@ const Contect = () => {
         >
           Contact US
         </h3>
+        </AnimatedText>
+        <AnimatedText3>
         <p className="relative text-sm text-black w-[70vw] md:w-[30vw] text-center leading-5 ">
           We are here to help and answer any question you might here. We look
           forward to hearing from you.
         </p>
+        </AnimatedText3>
         <div className="w-[85%] mt-10 grid grid-cols-1 lg:grid-cols-2 border-1 shadow-2xl border-black">
           <div className=" w-full flex flex-col items-center justify-center overflow-hidden p-5 bg-[#1C2430] ">
             <ContectCard
@@ -50,6 +57,7 @@ const Contect = () => {
           </div>
         </div>
         <div className="h-10 md:h-25 relative top-5 border-l-2 border-dashed border-black"></div>
+        <AnimatedText2>
         <h3
           className=" relative  text-[#232121] text-2xl md:text-[4vw] tracking-tight leading-[1em] font-bold  mt-7 md:mt-[7vh] cursor-pointer"
           style={{
@@ -59,6 +67,7 @@ const Contect = () => {
         >
           Get in Touch
         </h3>
+        </AnimatedText2>
          <div className="h-10 md:h-25 relative top-5 border-l-2 border-dashed border-black"></div>
 
          {/* form */}

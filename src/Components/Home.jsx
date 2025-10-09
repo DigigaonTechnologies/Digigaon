@@ -9,6 +9,8 @@ import PlanAnDev from "./PlanAnDev";
 import CountL from "./SubComponents/CountL";
 import ScrollToTop from "./SubComponents/ScrollToTop";
 import ContectCard from "./SubComponents/ContectCard";
+import AnimatedText from "./SubComponents/AnimatedText";
+import AnimatedText2 from "./SubComponents/AnimatedText2";
 
 
 const Home = () => {
@@ -50,9 +52,7 @@ const Home = () => {
             style={{
               lineHeight: "1",
               textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-              // background:"#3F4E63",
-              // WebkitBackgroundClip: "text",
-              // WebkitTextFillColor: "transparent",
+              
             }}
           >
             DIGIGAON
@@ -63,7 +63,6 @@ const Home = () => {
               lineHeight: "1",
               textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
               WebkitTextStroke: "1px black",
-              // background: "linear-gradient(to right, #ff7e5f, #feb47b)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               
@@ -82,6 +81,7 @@ const Home = () => {
       </section>
 
       <section className="bg-white relative py-16 px-4 md:px-8 text-center flex-col items-center justify-center">
+        <AnimatedText2>
         <h3
           className=" relative  text-xl text-[#232121] md:text-[5vw]  mt-4 tracking-tight  font-bold mb-5"
           style={{
@@ -91,6 +91,7 @@ const Home = () => {
         >
           Services we offer to <br /> transform your business
         </h3>
+        </AnimatedText2>
         <div className="md:h-20 h-15 w-0 relative left-[50%] border-l-2 border-dashed border-black mb-5 "></div>
 
         {/* Services Section */}
@@ -108,6 +109,7 @@ const Home = () => {
         </div>
       </section>
       <section className=" relative bg-[#1F2732]   flex flex-col items-center justify-center overflow-x-hidden ">
+        <AnimatedText2>
         <h3
           className=" relative mt-10 text-xl text-[#ffffff] md:text-[5vw]  tracking-tight font-bold mb-5"
           style={{
@@ -117,6 +119,7 @@ const Home = () => {
         >
           Our 4 Step Process to <br /> Deliver Excellence
         </h3>
+        </AnimatedText2>
         <div className="absolute z-10 left-[33%]  top-[27%] ">
           <img src={line1} className=" relative h-[16vw]" alt="" />
         </div>
@@ -154,6 +157,7 @@ const Home = () => {
       </section>
       <section className="flex flex-col items-center justify-center py-16 px-6">
         {/* Title */}
+        <AnimatedText2>
         <h3
           className=" relative   text-xl text-[#232121] md:text-[5vw]  tracking-tight leading-[1em] font-bold mb-[15vh] cursor-pointer"
           style={{
@@ -163,6 +167,7 @@ const Home = () => {
         >
           Get in Touch
         </h3>
+        </AnimatedText2>
 
         {/* Cards Wrapper */}
         <div className="flex flex-col md:flex-row items-center gap-10 relative mb-[15vh]">
