@@ -56,6 +56,7 @@ const Form = () => {
               type="text"
               placeholder="Name"
               name='user_name'
+              required
               className="w-full p-2 rounded bg-white text-black text-sm outline-none"
             />
           </div>
@@ -67,6 +68,7 @@ const Form = () => {
               type="text"
               placeholder="Phone"
               name='user_phone'
+              required
               className="w-full p-2 rounded bg-white text-black text-sm outline-none"
             />
           </div>
@@ -81,6 +83,7 @@ const Form = () => {
             type="email"
             placeholder="Email"
             name='user_email'
+            required
             className="w-full p-2 rounded bg-white text-black text-sm outline-none"
           />
         </div>
@@ -92,6 +95,8 @@ const Form = () => {
           </label>
           <textarea
             placeholder="Message"
+            required
+            minLength={5}
             name='message'
             rows="3"
             className="w-full p-2 rounded bg-white text-black text-sm outline-none"

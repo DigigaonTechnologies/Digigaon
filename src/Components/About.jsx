@@ -3,6 +3,7 @@ import { FaBrain, FaLightbulb, FaClock } from "react-icons/fa";
 import StrategCard from "./SubComponents/StrategCard";
 import data from "../../data.json";
 import Button from "./SubComponents/Button";
+import ScrollToTop from "./SubComponents/ScrollToTop";
 
 const About = () => {
   return (
@@ -154,6 +155,7 @@ const About = () => {
           </p>
         </div>
       </section>
+      <ScrollToTop/>
     </>
   );
 };

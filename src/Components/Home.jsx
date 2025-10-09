@@ -102,6 +102,7 @@ const Home = () => {
               imageUr={item.imageUr}
               title={item.title}
               description={item.description}
+              index={item.id}
             ></Scard>
           ))}
         </div>
@@ -160,7 +161,7 @@ const Home = () => {
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
           }}
         >
-          Get in Toch
+          Get in Touch
         </h3>
 
         {/* Cards Wrapper */}

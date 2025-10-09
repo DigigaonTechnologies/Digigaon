@@ -14,7 +14,7 @@ const Contect = () => {
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
           }}
         >
-          Contect US
+          Contact US
         </h3>
         <p className="relative text-sm text-black w-[70vw] md:w-[30vw] text-center leading-5 ">
           We are here to help and answer any question you might here. We look

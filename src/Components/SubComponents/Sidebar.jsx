@@ -10,9 +10,9 @@ const Sidebar = () => {
   const menuItems = [
     { name: "Home", path: "/" },
     { name: "Services", path: "/services" },
-    { name: "AboutUs", path: "/aboutus" },
+    { name: "AboutUs", path: "/about" },
     // { name: "About", path: "/about" },
-    { name: "ContectUs", path: "/contect" },
+    { name: "ContactUs", path: "/contect" },
   ];
 
   return (
@@ -28,14 +28,14 @@ const Sidebar = () => {
       {/* Overlay */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-50 z-40"
+          className="fixed inset-0 bg-black bg-opacity-50 z-[9992]"
           onClick={() => setIsOpen(false)}
         ></div>
       )}
 
       {/* Sidebar */}
       <aside
-        className={`fixed top-0 left-0 h-full w-64 bg-[#1F2732] shadow-lg z-50 transform transition-transform duration-300 ${
+        className={`fixed top-0 left-0 h-full w-64 bg-[#1F2732] shadow-lg z-[9992] transform transition-transform duration-300 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >

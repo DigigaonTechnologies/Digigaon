@@ -64,19 +64,11 @@
     "name": "Tajne Construction",
     "industry": "Construction & Infrastructure",
     "description":
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "logo": "/s1.png"
+      "They offer industrial construction services that refer to the development of large-scale industrial facilities and infrastructure. They are expertise in various disciplines, including engineering, architecture, project management, and safety regulations.",
+    "logo": "/clint.png"
   },
   {
     "id": 2,
-    "name": "Elite Housekeeping Services",
-    "industry": "Facility Management",
-    "description":
-      "Providing professional housekeeping and maintenance solutions for corporate, residential, and industrial clients.",
-    "logo": "/s1.png"
-  },
-  {
-    "id": 3,
     "name": "Bobde Electricals",
     "industry": "Electrical & Energy Solutions",
     "description":
@@ -84,38 +76,38 @@
     "logo": "/s1.png"
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Farmico Pvt. Ltd.",
-    "industry": "Agriculture & AgroTech",
+    "industry": "Housekeeping client",
     "description":
-      "Empowering farmers through technology-driven agriculture solutions and sustainable farming practices.",
-    "logo": "/s1.png"
+      "Farmico Commodities Pvt. Ltd. Is unit of WADHWANI GROUP established in year 2006 Situated at Nagpur, India. The company strives for being boundless in the field of International and domestic Trading",
+    "logo": "/farmico.png"
   }
 ],
 "services" : [
   {
     "id": 1,
-    "title": "UI/UX DESIGN",
-    "subtitle": "WE DESIGN",
+    "title": "Information Technology ",
+    "subtitle": "IT Solutions",
     "description":
-      "We provide reliable IT services, specializing in software development and cloud solutions. Our expertise ensures secure, scalable, and innovative systems that empower businesses to achieve digital transformation and long-term growth.",
-    "image": "/s1.png"
+      "We provide reliable IT services specializing in software development and cloud solutions. Our expert team delivers secure, scalable, and innovative systems that help businesses achieve digital transformation. With a focus on performance and security, we design customized solutions that streamline operations, enhance productivity, and ensure long-term growth in today’s competitive digital environment..",
+    "image": "/it.avif"
   },
   {
     "id": 2,
-    "title": "WEB DEVELOPMENT",
-    "subtitle": "WE DEVELOP",
+    "title": "Government Tenders",
+    "subtitle": "Comprehensive Support for Public Procurement",
     "description":
-      "We are Creative Nerds. We are Technocrats. But We are Passionate about creating a Successful Brand for You.",
-    "image": "/s1.png"
+      "We provide end-to-end assistance for Government tenders through platforms like GeM Portal and MP Tenders. Our team helps businesses identify the right opportunities, prepare competitive bids, and handle all necessary documentation and compliance requirements. From registration and tender submission to follow-up and result tracking, we ensure a smooth and transparent process that increases your chances of winning government projects efficiently and confidently.",
+    "image": "/tender.jpg"
   },
    {
     "id": 3,
-    "title": "WEB DEVELOPMENT",
-    "subtitle": "WE DEVELOP",
+    "title": "Housekeeping",
+    "subtitle": "Creating Clean",
     "description":
-      "We are Creative Nerds. We are Technocrats. But We are Passionate about creating a Successful Brand for You.",
-    "image": "/s1.png"
+      "Our professional housekeeping services ensure clean, hygienic, and well-maintained spaces tailored to meet the specific needs of homes, offices, and industrial setups. We focus on comprehensive sanitation, waste management, and daily upkeep using eco-friendly practices and modern cleaning equipment. By maintaining high standards of cleanliness and hygiene, we help create healthier, more productive, and welcoming environments for employees, clients, and residents alike.",
+    "image": "/house.jpg"
   }
   
 ],

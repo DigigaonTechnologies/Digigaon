@@ -39,7 +39,7 @@ const Fotter = () => {
           {/* Contact / Number */}
           <div className="w-full sm:w-[50%] md:w-[40%] lg:w-[15vw] text-center lg:text-left">
             <h1 className="font-bold p-1 border-[#FF6900] border-b-2 w-max mx-auto lg:mx-0 text-base sm:text-lg lg:text-[1.5vw]">
-              CONTECT
+              CONTACT
             </h1>
             <h1 className="mt-3 flex gap-2 "><span className="bg-[#FF6900] p-1"><FaPhoneAlt/></span><span className="hover:scale-110 transition-all hover:text-orange-400">+91 9131957450</span> </h1>
             <h1 className="mt-1.5 flex gap-2"><span className="bg-[#FF6900] p-1"><SiGmail/></span> <a className="hover:scale-110 transition-all hover:text-orange-400" href="mailto:digigaontechnologies@gmail.com">digigaontechnologies@gmail.com</a></h1>

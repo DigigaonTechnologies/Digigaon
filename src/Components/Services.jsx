@@ -36,11 +36,13 @@ const Services = () => {
               index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
             } items-center justify-between gap-8`}
           >
-            <img
+            <div className='w-full overflow-hidden md:w-[40%] flex justify-center items-center'>
+              <img
               src={service.image}
               alt={service.title}
-              className="w-[80%] md:w-[30%] top-0 rounded-xl"
+              className=" w-full hover:scale-120 transition-transform duration-500 ease-in-out object-cover"
             />
+            </div>
             <div className="w-full md:w-[60%] text-center md:text-left">
               <p className="text-orange-500 font-bold uppercase text-sm mb-2">
                 {service.subtitle}
