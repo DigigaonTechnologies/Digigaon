@@ -107,7 +107,7 @@ const Home = () => {
           ))}
         </div>
       </section>
-      <section className=" relative bg-[#1F2732]   flex flex-col items-center justify-center ">
+      <section className=" relative bg-[#1F2732]   flex flex-col items-center justify-center overflow-x-hidden ">
         <h3
           className=" relative mt-10 text-xl text-[#ffffff] md:text-[5vw]  tracking-tight font-bold mb-5"
           style={{

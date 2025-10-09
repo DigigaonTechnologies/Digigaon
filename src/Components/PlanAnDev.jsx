@@ -5,16 +5,17 @@ import { useInView } from "react-intersection-observer";
 
 const PlanAnDev = ({id,title, description,accent, image}) => {
  const isEven = id % 2 === 0;
-    const [ref, inView] = useInView({ triggerOnce: true,rootMargin: "-60% 0px", });
+    const [ref, inView] = useInView({ triggerOnce: true,
+  threshold: 0.3, });
 
   // Parent card motion
-  const cardX = useMotionValue(isEven ? -400 : 400);
+  const cardX = useMotionValue(isEven ? -120 : 120);
   const cardOpacity = useMotionValue(0);
-  const cardXSpring = useSpring(cardX, { stiffness: 120, damping: 20 });
+  const cardXSpring = useSpring(cardX, { stiffness: 90, damping: 20 });
   const cardOpacitySpring = useSpring(cardOpacity, { stiffness: 120, damping: 20 });
 
   // Image motion
-  const imgX = useMotionValue(isEven ? -500 : 500);
+  const imgX = useMotionValue(isEven ? -300 : 300);
   const imgOpacity = useMotionValue(0);
   const imgScale = useMotionValue(0.8);
   const imgXSpring = useSpring(imgX, { stiffness: 100, damping: 10 });
@@ -37,7 +38,7 @@ const PlanAnDev = ({id,title, description,accent, image}) => {
   return (
    <motion.div
       ref={ref}
-      style={{ x: cardXSpring, opacity: cardOpacitySpring }}
+      style={{ x: cardXSpring, opacity: cardOpacitySpring, }}
       className={`flex relative bg-[#c4c4c43d] ${
         isEven ? "rounded-r-4xl border-l-0" : "rounded-l-4xl border-r-0"
       } px-[2vw] py-[3vw] top-2 items-center gap-8 max-w-5xl mx-auto ${
