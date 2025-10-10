@@ -7,15 +7,19 @@ import ScrollToTop from "./SubComponents/ScrollToTop";
 import AnimatedText from "./SubComponents/AnimatedText";
 import AnimatedText2 from "./SubComponents/AnimatedText2";
 import AnimatedText3 from "./SubComponents/AnimatedText3";
+import { easeInOut, motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
 
 const About = () => {
+  const [ref,inView]=useInView({triggerOnce:true,threshold:0.3})
   return (
     <>
       <section className="w-full flex flex-col scroll-smooth items-center justify-center py-12 px-4 md:px-16 bg-white text-center">
         {/* ABOUT US HEADER */}
         <AnimatedText>
         <h2
-          className="text-3xl text-black md:mt-[10vh] md:text-4xl font-extrabold mb-2 tracking-tight"
+          className="text-3xl text-black mt-[13vh] md:mt-[10vh] md:text-4xl font-extrabold mb-2 tracking-tight"
           style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
         >
           ABOUT US
@@ -32,7 +36,7 @@ const About = () => {
         <div className="h-10 md:h-15 md:mb-5 relative  border-l-2 border-dashed border-black"></div>
 
         {/* INTRODUCTION CARD */}
-        <div className="relative bg-white w-full md:w-[80%] rounded-xl overflow-hidden shadow-2xl">
+        <div className="relative bg-white w-full md:w-[80%] py-5 rounded-xl overflow-hidden shadow-2xl">
           <img
             src="/office-bg.jpg" // 👈 replace with your image in public folder
             alt="Office Background"
@@ -84,12 +88,18 @@ const About = () => {
         </div>
       </section>
       {/* OUR VISION & WHY CHOOSE US SECTION */}
-      <section className="w-full flex flex-col items-center justify-center bg-white">
+      <section className="w-full flex flex-col overflow-y-hidden items-center justify-center bg-white">
         {/* OUR VISION */}
-        <div className="relative w-full flex flex-col items-center justify-center py-10 px-4 md:px-16">
+        <motion.div
+        ref={ref}
+        initial={{x:-200,opacity:0}}
+        animate={inView?{x:0,opacity:1}:{}}
+        transition={{duration:0.3,easeInOut}}
+         
+         className="relative w-full flex flex-col items-center justify-center py-10 px-4 md:px-16">
           <div className="relative bg-white w-full md:w-[80%] rounded-xl overflow-hidden shadow-lg">
             <img
-              src="/office-bg.jpg" // 👈 replace with your image
+              src="/office-bg.jpg" 
               alt="Office background"
               className="w-full h-[100px] md:h-[200px] object-cover"
             />
@@ -103,12 +113,17 @@ const About = () => {
               </p>
             </div>
           </div>
-        </div>
+        </motion.div>
         {/* OUR MISSION */}
-        <div className="relative w-full flex flex-col items-center justify-center py-10 px-4 md:px-16">
+        <motion.div
+         ref={ref}
+        initial={{x:200,opacity:0}}
+        animate={inView?{x:0,opacity:1}:{}}
+        transition={{duration:0.3,easeInOut}}
+        className="relative w-full flex flex-col items-center justify-center py-10 px-4 md:px-16">
           <div className="relative bg-white w-full md:w-[80%] rounded-xl overflow-hidden shadow-lg">
             <img
-              src="/office-bg.jpg" // 👈 replace with your image
+              src="/office-bg.jpg" 
               alt="Office background"
               className="w-full h-[100px] md:h-[200px] object-cover"
             />
@@ -122,16 +137,18 @@ const About = () => {
               </p>
             </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* Divider Line */}
         <div className="h-10 md:h-15 md:mt-5 md:mb-5 relative  border-l-2 border-dashed border-black"></div>
 
         {/* WHY CHOOSE SECTION */}
         <div className="w-full bg-[#1F2732] text-white py-12 px-6 md:px-16 flex flex-col items-center">
+          <AnimatedText2>
           <h2 className="text-2xl md:text-3xl font-bold mb-10 text-center">
             Why choose Digigaon ?
           </h2>
+          </AnimatedText2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center max-w-6xl">
             {/* Cards  */}
@@ -148,6 +165,7 @@ const About = () => {
             )}
           </div>
         </div>
+        {/* Describe Life section */}
         <div className="w-full flex flex-col items-center justify-center py-12 px-4 md:px-16 bg-white text-center">
           <AnimatedText2>
           <h2

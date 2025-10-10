@@ -72,8 +72,8 @@
     "name": "Bobde Electricals",
     "industry": "Electrical & Energy Solutions",
     "description":
-      "Experts in electrical installation, maintenance, and industrial automation, delivering reliable and safe power solutions.",
-    "logo": "/s1.png"
+      "Bobde Electrical Services LLP is an Indian limited liability partnership incorporated on January 30, 2020, based in Chhindwara, Madhya Pradesh. The company operates in the electrical machinery manufacturing industry and offers services including solar energy solutions.",
+    "logo": "/Zauba.webp"
   },
   {
     "id": 3,
@@ -116,7 +116,7 @@
     "id": 1,
     "image": "/a1.png",
     "title": "Ownership",
-    "accent": "orange-500",
+    "accent": "border-orange-500 text-orange-500",
     "description":
       "We take full responsibility for our actions. We apologize for our mistakes and work with more sincerity and dedication to delight our customers."
   },
@@ -124,7 +124,7 @@
     "id": 2,
     "image": "/a2.png",
     "title": "Think Smarter and Bigger",
-    "accent": "pink-600",
+    "accent": "border-pink-600 text-pink-600",
     "description":
       "We constantly strive for improvement and growth. We embrace change, adopt it, and find solutions to improve ourselves."
   },
@@ -132,7 +132,7 @@
     "id": 3,
     "image": "/a3.png",
     "title": "Work Ethic",
-    "accent": "green-500",
+    "accent": "border-green-500 || text-green-500",
     "description":
       "We are proactive, organized, result-driven, and prompt because we expect high performance from ourselves. Consequently, we regularly invest in training to create a highly skilled and efficient talent pool."
   }

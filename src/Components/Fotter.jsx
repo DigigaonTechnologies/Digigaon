@@ -11,7 +11,7 @@ const Fotter = () => {
   return (
     <div className="relative w-full text-white">
       {/* Floating Logo */}
-      <div className="absolute z-10 hover:scale-120 transition-all -top-5 left-1/2 -translate-x-1/2 w-[130px] h-[60px] rounded bg-white flex justify-center items-center">
+      <div className="absolute z-10 hover:scale-120 transition-all top-0 md:-top-5 left-1/2 -translate-x-1/2 w-[135px] h-[65px] rounded bg-white flex justify-center items-center">
         <img className=" object-cover"  src={image} alt="logo" />
       </div>
 
@@ -24,14 +24,14 @@ const Fotter = () => {
         </h2>
 
         {/* Footer Content */}
-        <div className="flex flex-col lg:flex-row gap-10 lg:gap-[7vw] mt-10 w-full lg:w-auto justify-center items-center lg:items-start">
+        <div className="flex flex-col lg:flex-row gap-10 lg:gap-[7vw] mt-15 w-full lg:w-auto justify-center items-center lg:items-start">
           
           {/* About Company */}
           <div className="w-full sm:w-[70%] md:w-[50%] lg:w-[22vw] text-center lg:text-left">
             <h1 className="font-bold p-1 border-[#FF6900]   border-b-2 w-max mx-auto lg:mx-0 text-base sm:text-lg lg:text-[1.5vw]">
               ABOUT COMPANY
             </h1>
-            <p className="text-[0.8rem] relative  leading-4 font-light mt-10 md:mt-3 text-gray-300">
+            <p className="text-[0.8rem] relative  leading-4 font-light mt-12 md:mt-3 text-gray-300">
              Digigaon Technologies LLP is a dynamic IT solutions and service provider dedicated to delivering innovative and reliable digital solutions. Established with the vision of bridging technology with everyday needs, we offer a diverse range of services tailored to businesses, individuals, and government sectors.
             </p>
           </div>

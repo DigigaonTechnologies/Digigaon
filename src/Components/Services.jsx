@@ -15,7 +15,7 @@ const Services = () => {
         <div className="text-center mb-10">
           <AnimatedText>
           <h3
-            className=" relative  text-[#232121] text-2xl md:text-[4vw] tracking-tight leading-[1em] font-bold mb-[5vh] mt-[10vh] md:mt-[10vh] cursor-pointer"
+            className=" relative  text-[#232121] text-3xl md:text-[4vw] tracking-tight leading-[1em] font-bold mb-[5vh] mt-[10vh] md:mt-[10vh] cursor-pointer"
             style={{
               lineHeight: "1",
               textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
@@ -113,7 +113,7 @@ const Services = () => {
               <p className="text-orange-500 font-bold uppercase text-sm mb-1">
                 {service.subtitle}
               </p>
-              <h3 className="text-xl font-bold shadow text-gray-900 mb-2">
+              <h3 className="text-xl font-bold text-shadow-2xs text-gray-900 mb-2">
                 {service.title}
               </h3>
               <p className="text-gray-600 text-sm">{service.description}</p>
@@ -125,7 +125,7 @@ const Services = () => {
         <div className="text-center mb-10">
           <AnimatedText2>
           <h3
-            className=" relative  text-[#232121] text-2xl md:text-[4vw] tracking-tight leading-[1em] font-bold mb-[5vh]  md:mt-[10vh] cursor-pointer"
+            className=" relative  text-[#232121] text-3xl md:text-[4vw] tracking-tight leading-[1em] font-bold mb-[5vh]  md:mt-[10vh] cursor-pointer"
             style={{
               lineHeight: "1",
               textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
@@ -137,7 +137,7 @@ const Services = () => {
         
         </div>
         {/* ===== Mobile Side Scroll ===== */}
-        <div className="w-[80%] h-[65vh] md:h-[90vh] md:mb-5  mx-auto">
+        <div className="w-[80%] h-[65vh] md:h-[90vh] mb-5  mx-auto">
           <SlideBar />
         </div>
       </section>

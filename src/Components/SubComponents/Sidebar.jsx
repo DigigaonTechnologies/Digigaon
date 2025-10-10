@@ -35,17 +35,17 @@ const Sidebar = () => {
 
       {/* Sidebar */}
       <aside
-        className={`fixed top-0 left-0 h-full w-64 bg-[#1F2732] shadow-lg z-[9992] transform transition-transform duration-300 ${
+        className={`fixed top-0 left-0 h-full w-84 bg-[#1F2732] shadow-lg z-[9992] transform transition-transform duration-300 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
         <div className="flex items-center bg-[#1F2732] justify-between p-4 border-b">
-          <img className="w-[60%]" src={logo} alt="" />
+          <img className="w-[70%]" src={logo} alt="" />
           <button
             className="p-2 rounded-md hover:bg-gray-200"
             onClick={() => setIsOpen(false)}
           >
-            <XMarkIcon className="w-6 h-6" />
+            <XMarkIcon className="w-7 h-7" />
           </button>
         </div>
         <nav className="flex bg-[#1F2732] flex-col  p-4 space-y-2">
@@ -53,7 +53,7 @@ const Sidebar = () => {
             <Link
               key={index}
               to={item.path}
-              className="p-2 rounded hover:bg-blue-100 transition"
+              className="p-2  text-2xl font-light border-b-2 border-[#334052] "
               onClick={() => setIsOpen(false)} // close sidebar on click
             >
               {item.name}

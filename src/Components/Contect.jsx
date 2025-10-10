@@ -12,7 +12,7 @@ const Contect = () => {
       <section className="relative  flex-col w-[100vw] min-h-[100vh] flex justify-center items-center py-16 px-6 scroll-smooth">
         <AnimatedText>
         <h3
-          className=" relative  text-[#232121] text-2xl md:text-[4vw] tracking-tight leading-[1em] font-bold mb-[5vh] mt-[10vh] md:mt-[10vh] cursor-pointer"
+          className=" relative  text-[#232121] text-3xl md:text-[4vw] tracking-tight leading-[1em] font-bold mb-[5vh] mt-[10vh] md:mt-[10vh] cursor-pointer"
           style={{
             lineHeight: "1",
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
@@ -59,7 +59,7 @@ const Contect = () => {
         <div className="h-10 md:h-25 relative top-5 border-l-2 border-dashed border-black"></div>
         <AnimatedText2>
         <h3
-          className=" relative  text-[#232121] text-2xl md:text-[4vw] tracking-tight leading-[1em] font-bold  mt-7 md:mt-[7vh] cursor-pointer"
+          className=" relative  text-[#232121] text-3xl md:text-[4vw] tracking-tight leading-[1em] font-bold  mt-7 md:mt-[7vh] cursor-pointer"
           style={{
             lineHeight: "1",
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",

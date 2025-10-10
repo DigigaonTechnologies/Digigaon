@@ -39,16 +39,16 @@ const PlanAnDev = ({id,title, description,accent, image}) => {
    <motion.div
       ref={ref}
       style={{ x: cardXSpring, opacity: cardOpacitySpring, }}
-      className={`flex relative bg-[#c4c4c43d] ${
+      className={`flex relative bg-[#c4c4c43d] p-2  ${
         isEven ? "rounded-r-4xl border-l-0" : "rounded-l-4xl border-r-0"
-      } px-[2vw] py-[3vw] top-2 items-center gap-8 max-w-5xl mx-auto ${
+      } px-[2vw] md:py-[3vw] top-2 items-center gap-8 max-w-5xl mx-auto ${
         isEven ? "flex-row-reverse" : "flex-row"
       } ${accent} border shadow-[0_8px_12px_rgba(0,0,0,0.5)] my-10`}
     >
       {/* Image with spring bounce */}
       <motion.div
         style={{ x: imgXSpring, opacity: imgOpacitySpring, scale: imgScaleSpring }}
-        className="w-[10vw] h-[10vw] rounded-full overflow-hidden shadow-lg border-2 flex-shrink-0"
+        className="w-16 h-16 md:w-[10vw] md:h-[10vw] rounded-full overflow-hidden shadow-lg border-2 flex-shrink-0"
       >
         <img src={image} alt={title} className="w-full hover:scale-110 transition-all h-full object-cover" />
       </motion.div>
@@ -58,9 +58,8 @@ const PlanAnDev = ({id,title, description,accent, image}) => {
         initial={{ x: isEven ?-100 : 100, opacity: 0 }}
         animate={inView ? { x: 0, opacity: 1 } : {}}
         transition={{ type: "spring", stiffness: 120, damping: 20, delay: 0.3 }}
-        className="p-6 w-[50%] flex-1"
-      >
-        <p className="text-gray-300 text-start text-[1.4vw] w-[110%]">{description}</p>
+        className=" md:px-6  flex-1">
+        <p className="text-gray-300 text-start text-[2.1vw] md:text-[1.4vw] w-[110%]">{description}</p>
       </motion.div>
     </motion.div>
   );
