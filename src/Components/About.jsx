@@ -10,26 +10,25 @@ import AnimatedText3 from "./SubComponents/AnimatedText3";
 import { easeInOut, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-
 const About = () => {
-  const [ref,inView]=useInView({triggerOnce:true,threshold:0.3})
+  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.3 });
   return (
     <>
       <section className="w-full flex flex-col scroll-smooth items-center justify-center py-12 px-4 md:px-16 bg-white text-center">
         {/* ABOUT US HEADER */}
         <AnimatedText>
-        <h2
-          className="text-3xl text-black mt-[13vh] md:mt-[10vh] md:text-4xl font-extrabold mb-2 tracking-tight"
-          style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
-        >
-          ABOUT US
-        </h2>
+          <h2
+            className="text-3xl text-black mt-[13vh] md:mt-[10vh] md:text-4xl font-extrabold mb-2 tracking-tight"
+            style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+          >
+            ABOUT US
+          </h2>
         </AnimatedText>
         <AnimatedText3>
-        <p className="text-sm md:text-base text-gray-600 mb-6">
-          CipherEleven– Committed to Creating Successful <br /> Entrepreneurs
-          and Brands!!!
-        </p>
+          <p className="text-sm md:text-base text-gray-600 mb-6">
+            CipherEleven– Committed to Creating Successful <br /> Entrepreneurs
+            and Brands!!!
+          </p>
         </AnimatedText3>
 
         {/* Divider Line */}
@@ -54,7 +53,7 @@ const About = () => {
               reach and engagement while achieving growth in quality demand
               generation.
             </p>
-            <Button type1={"submit"} text1={"View portfolio"}/>
+            <Button type1={"submit"} text1={"View portfolio"} />
           </div>
         </div>
 
@@ -64,12 +63,12 @@ const About = () => {
         {/* WHY WE ARE HERE SECTION */}
         <div className="max-w-4xl text-center">
           <AnimatedText2>
-          <h3
-            className="text-2xl text-black md:text-3xl font-bold mb-4"
-            style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
-          >
-            Why are we here ?
-          </h3>
+            <h3
+              className="text-2xl text-black md:text-3xl font-bold mb-4"
+              style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+            >
+              Why are we here ?
+            </h3>
           </AnimatedText2>
           <p className="text-gray-700 text-sm md:text-base leading-5.5 mb-4">
             Launched in 2018 by a seasoned and close-knit team of technocrats,
@@ -91,15 +90,15 @@ const About = () => {
       <section className="w-full flex flex-col overflow-y-hidden items-center justify-center bg-white">
         {/* OUR VISION */}
         <motion.div
-        ref={ref}
-        initial={{x:-200,opacity:0}}
-        animate={inView?{x:0,opacity:1}:{}}
-        transition={{duration:0.3,easeInOut}}
-         
-         className="relative w-full flex flex-col items-center justify-center py-10 px-4 md:px-16">
+          ref={ref}
+          initial={{ x: -200, opacity: 0 }}
+          animate={inView ? { x: 0, opacity: 1 } : {}}
+          transition={{ duration: 0.3, easeInOut }}
+          className="relative w-full flex flex-col items-center justify-center py-10 px-4 md:px-16"
+        >
           <div className="relative bg-white w-full md:w-[80%] rounded-xl overflow-hidden shadow-lg">
             <img
-              src="/office-bg.jpg" 
+              src="/office-bg.jpg"
               alt="Office background"
               className="w-full h-[100px] md:h-[200px] object-cover"
             />
@@ -116,14 +115,15 @@ const About = () => {
         </motion.div>
         {/* OUR MISSION */}
         <motion.div
-         ref={ref}
-        initial={{x:200,opacity:0}}
-        animate={inView?{x:0,opacity:1}:{}}
-        transition={{duration:0.3,easeInOut}}
-        className="relative w-full flex flex-col items-center justify-center py-10 px-4 md:px-16">
+          ref={ref}
+          initial={{ x: 200, opacity: 0 }}
+          animate={inView ? { x: 0, opacity: 1 } : {}}
+          transition={{ duration: 0.3, easeInOut }}
+          className="relative w-full flex flex-col items-center justify-center py-10 px-4 md:px-16"
+        >
           <div className="relative bg-white w-full md:w-[80%] rounded-xl overflow-hidden shadow-lg">
             <img
-              src="/office-bg.jpg" 
+              src="/office-bg.jpg"
               alt="Office background"
               className="w-full h-[100px] md:h-[200px] object-cover"
             />
@@ -145,9 +145,9 @@ const About = () => {
         {/* WHY CHOOSE SECTION */}
         <div className="w-full bg-[#1F2732] text-white py-12 px-6 md:px-16 flex flex-col items-center">
           <AnimatedText2>
-          <h2 className="text-2xl md:text-3xl font-bold mb-10 text-center">
-            Why choose Digigaon ?
-          </h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-10 text-center">
+              Why choose Digigaon ?
+            </h2>
           </AnimatedText2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center max-w-6xl">
@@ -168,12 +168,12 @@ const About = () => {
         {/* Describe Life section */}
         <div className="w-full flex flex-col items-center justify-center py-12 px-4 md:px-16 bg-white text-center">
           <AnimatedText2>
-          <h2
-            className="text-2xl text-black md:text-3xl font-bold mb-4"
-            style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
-          >
-            Life At Digigaon
-          </h2>
+            <h2
+              className="text-2xl text-black md:text-3xl font-bold mb-4"
+              style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+            >
+              Life At Digigaon
+            </h2>
           </AnimatedText2>
           <p className="text-sm md:text-base text-gray-600 mb-6">
             We believe in thinking outside the box. The Team comes up with a
@@ -184,7 +184,7 @@ const About = () => {
           </p>
         </div>
       </section>
-      <ScrollToTop/>
+      <ScrollToTop />
     </>
   );
 };

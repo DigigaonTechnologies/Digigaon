@@ -39,7 +39,7 @@ const Sidebar = () => {
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="flex items-center bg-[#1F2732] justify-between p-4 border-b">
+        <div className="flex items-center bg-[#1F2732] h-40 justify-between py-4 border-b-1">
           <img className="w-[70%]" src={logo} alt="" />
           <button
             className="p-2 rounded-md hover:bg-gray-200"

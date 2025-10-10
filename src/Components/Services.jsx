@@ -14,15 +14,15 @@ const Services = () => {
         {/* ===== Section Header ===== */}
         <div className="text-center mb-10">
           <AnimatedText>
-          <h3
-            className=" relative  text-[#232121] text-3xl md:text-[4vw] tracking-tight leading-[1em] font-bold mb-[5vh] mt-[10vh] md:mt-[10vh] cursor-pointer"
-            style={{
-              lineHeight: "1",
-              textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-            }}
-          >
-            Our Services
-          </h3>
+            <h3
+              className=" relative  text-[#232121] text-3xl md:text-[4vw] tracking-tight leading-[1em] font-bold mb-[5vh] mt-[10vh] md:mt-[10vh] cursor-pointer"
+              style={{
+                lineHeight: "1",
+                textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+              }}
+            >
+              Our Services
+            </h3>
           </AnimatedText>
           <h2
             className="text-2xl md:text-3xl md:mt-10 font-semibold text-gray-900"
@@ -48,7 +48,7 @@ const Services = () => {
               triggerOnce: true,
               threshold: 0.3,
             });
-            const cardVariants = (isEven) =>({
+            const cardVariants = (isEven) => ({
               hidden: { x: isEven ? -300 : 300, opacity: 0 },
               visible: {
                 x: 0,
@@ -58,8 +58,8 @@ const Services = () => {
                   stiffness: 120,
                   damping: 20,
                   duration: 0.6,
-                  easeInOut
-                   // stagger effect
+                  easeInOut,
+                  // stagger effect
                 },
               },
             });
@@ -124,17 +124,16 @@ const Services = () => {
       <section className="px-5">
         <div className="text-center mb-10">
           <AnimatedText2>
-          <h3
-            className=" relative  text-[#232121] text-3xl md:text-[4vw] tracking-tight leading-[1em] font-bold mb-[5vh]  md:mt-[10vh] cursor-pointer"
-            style={{
-              lineHeight: "1",
-              textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-            }}
-          >
-            Our Valued Clients
-          </h3>
+            <h3
+              className=" relative  text-[#232121] text-3xl md:text-[4vw] tracking-tight leading-[1em] font-bold mb-[5vh]  md:mt-[10vh] cursor-pointer"
+              style={{
+                lineHeight: "1",
+                textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+              }}
+            >
+              Our Valued Clients
+            </h3>
           </AnimatedText2>
-        
         </div>
         {/* ===== Mobile Side Scroll ===== */}
         <div className="w-[80%] h-[65vh] md:h-[90vh] mb-5  mx-auto">

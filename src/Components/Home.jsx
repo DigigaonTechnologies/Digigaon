@@ -11,6 +11,7 @@ import ScrollToTop from "./SubComponents/ScrollToTop";
 import ContectCard from "./SubComponents/ContectCard";
 import AnimatedText from "./SubComponents/AnimatedText";
 import AnimatedText2 from "./SubComponents/AnimatedText2";
+import { motion } from "framer-motion";
 
 const Home = () => {
   // const isEven = steps.id % 2 === 0;
@@ -29,21 +30,25 @@ const Home = () => {
           }}
         ></div>
         <div className=" absolute top-[30vh] md:top-[35vh] left-1/2 -translate-x-1/2 ">
-          <h3
+          <motion.h3
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.9, ease: "easeOut" }}
             className="text-white text-[10vw] md:text-[3rem] font-semibold "
             style={{
               lineHeight: "1",
               textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-              // stroke: "black"
               WebkitTextStroke: "1px black",
-              // background: "linear-gradient(to right, #ff7e5f, #feb47b)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
             }}
           >
             Welcome to
-          </h3>
-          <h1
+          </motion.h3>
+          <motion.h1
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.4, duration: 0.9, ease: "easeOut" }}
             className="text-[16vw] text-[#1F2732] tracking-normal  font-bold "
             style={{
               lineHeight: "1",
@@ -51,8 +56,11 @@ const Home = () => {
             }}
           >
             DIGIGAON
-          </h1>
-          <h2
+          </motion.h1>
+          <motion.h2
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.9, duration: 0.9, ease: "easeOut" }}
             className=" text-[10vw] md:text-[3rem] font-bold text-white "
             style={{
               lineHeight: "1",
@@ -63,7 +71,7 @@ const Home = () => {
             }}
           >
             TECHNOLOGIES LLP
-          </h2>
+          </motion.h2>
         </div>
         {/* Center circle (0) */}
         <div className="absolute md:top-[130vh] top-[74vh] z-10  gap-10 flex flex-col items-center left-1/2 transform -translate-x-1/2">
